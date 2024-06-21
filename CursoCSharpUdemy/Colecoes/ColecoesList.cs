@@ -17,6 +17,20 @@ namespace CursoCSharpUdemy.Colecoes
             Nome = nome;
             Preco = preco;
         }
+
+        //aula sobre Igualdade
+        public override bool Equals(object obj)
+        {
+            Produto outroProduto = (Produto)obj;
+            bool mesmoNome = Nome == outroProduto.Nome;
+            bool mesmoPreco = Preco == outroProduto.Preco;
+            return mesmoNome && mesmoPreco;
+        }
+
+        public override int GetHashCode()
+        {
+            return Nome.Length;
+        }
     }
     internal class ColecoesList
     {

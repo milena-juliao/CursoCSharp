@@ -21,6 +21,7 @@ namespace CursoCSharpUdemy.Colecoes
                 new Produto("Camisa", 29.9),
                 new Produto("Poster", 10),
                 new Produto("Boné", 30.5),
+                new Produto("Boné", 30.5),//GetHashSet impede que seja repetido.
             };
 
             carrinho.UnionWith(combo);//une uma lista ao set, somente os itens que não sejam duplicados
