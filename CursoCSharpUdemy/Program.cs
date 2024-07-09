@@ -6,6 +6,7 @@ using CursoCSharpUdemy.EstruturaDeControle;
 using CursoCSharpUdemy.ClassesEMetodos;
 using CursoCSharpUdemy.Colecoes;
 using CursoCSharpUdemy.OO;
+using CursoCSharpUdemy.MetodosEFuncoes;
 
 namespace CursoCSharp
 {
@@ -80,6 +81,14 @@ namespace CursoCSharp
                 {"Abstract - Orientação a Objetos", Abstract.Executar},
                 {"Interface - Orientação a Objetos", Interface.Executar},
                 {"Sealed - Orientação a Objetos", Sealed.Executar},
+
+                //Métodos e Funções
+                {"Exemplo Lambda - Métodos e Funções", ExemploLambda.Executar},
+                {"Lambdas Como Delegate - Métodos e Funções", LambdasDelegate.Executar},
+                {"Usando Delegate - Métodos e Funções", UsandoDelegate.Executar},
+                {"Delegate com Funções Anônimas - Métodos e Funções", FuncaoAnonimaDelegate.Executar},
+                {"Delegate como Parâmetro  - Métodos e Funções", DelegateParametro.Executar},
+                {"Métodos de Extensão  - Métodos e Funções", MetodosDeExtensao.Executar},
             });
 
             central.SelecionarEExecutar();
