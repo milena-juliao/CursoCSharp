@@ -1,0 +1,3 @@
+Produto;Preco;Qtde
+Caneta Bic Azul;3.60;20
+Estojo verde;12.50;10
